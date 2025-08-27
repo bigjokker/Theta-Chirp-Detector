@@ -159,13 +159,15 @@ for sufficiently large $n$ with $|A_2(n)| \geq c_0 > 0$ (non-vanishing, true for
 **Proof sketch.** Use $I_{1/2}(x)=\sqrt{2/(\pi x)}\sinh x$ to obtain the exact ratio in (1). Expand $\sinh(z/2)/\sinh z=e^{-z/2}(1+O(e^{-z}))$ and $\sqrt{z/(z/2)}=\sqrt{2}$, yielding $T_2/T_1=(A_4/(\sqrt{2}A_2))e^{-z/2}(1+O(e^{-z}))$. For the tail $k\ge3$, combine Weil-type bounds $|A_{2k}|\ll_\varepsilon k^{1/2+\varepsilon}$ with $I_{1/2}(z/k)\asymp e^{z/k}/\sqrt{z/k}$ to get a dominated geometric series with leading factor $e^{-2z/3}$. The uniform bound follows from the triangle inequality, the exact $k=2$ ratio, the exponential remainder in sinh, and a coarse maximization of the Kloosterman ratio inside the Weil envelope to fix $C_{\rm univ}$.
 
 **Main estimate (quick consequence).**  
-Using the dominant exponential in $\sinh$,  
+Using the dominant exponential in $\sinh$,
+
 $$  
 \frac{|T_2|}{|T_1|}\approx \frac{|A_4|}{\sqrt{2}\,|A_2|}\,e^{-z/2}\quad\text{so}\quad \frac{|a(n)-T_1(n)|}{|T_1(n)|}\approx C\,e^{-z/2},\ \ C\approx 0.545\pm0.01.  
 $$  
 
 **Crossover $n_\ast$.**  
-Solving $C e^{-z/2}=\varepsilon$ with $z=\frac{\pi}{12}\sqrt{24n-1}$ gives  
+Solving $C e^{-z/2}=\varepsilon$ with $z=\frac{\pi}{12}\sqrt{24n-1}$ gives
+
 $$  
 n_\ast(\varepsilon)\approx \frac{24}{\pi^2}\,\big(\log(C/\varepsilon)\big)^2.  
 $$  
